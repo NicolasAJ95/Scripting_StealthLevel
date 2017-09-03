@@ -20,6 +20,8 @@ namespace UnityStandardAssets.Cameras
         [SerializeField] private float m_TiltMin = 45f;                       // The minimum value of the x axis rotation of the pivot.
         [SerializeField] private bool m_LockCursor = false;                   // Whether the cursor should be hidden and locked.
         [SerializeField] private bool m_VerticalAutoReturn = false;           // set wether or not the vertical axis should auto return
+        [SerializeField] private float verticalOffset;
+        [SerializeField] private float horizontalOffset;
 
         private float m_LookAngle;                    // The rig's y axis rotation.
         private float m_TiltAngle;                    // The pivot's x axis rotation.
@@ -63,7 +65,8 @@ namespace UnityStandardAssets.Cameras
         {
             if (m_Target == null) return;
             // Move the rig towards target position.
-            transform.position = Vector3.Lerp(transform.position, m_Target.position, deltaTime*m_MoveSpeed);
+            transform.position = Vector3.Lerp(transform.position + new Vector3(horizontalOffset , verticalOffset , 0), 
+                                                m_Target.position + new Vector3(horizontalOffset, verticalOffset, 0), deltaTime*m_MoveSpeed);
         }
 
 

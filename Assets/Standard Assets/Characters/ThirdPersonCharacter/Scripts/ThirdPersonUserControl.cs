@@ -12,8 +12,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
+        private float vfxIntensity;
 
-        
+
         private void Start()
         {
             // get the transform of the main camera
@@ -35,6 +36,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void Update()
         {
+            Shader.SetGlobalFloat("_VFXIntensity", vfxIntensity);
+            if (Input.GetKey(KeyCode.Q))
+            {
+                vfxIntensity = 1;
+            }
+            else
+                vfxIntensity = 0;
+
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
