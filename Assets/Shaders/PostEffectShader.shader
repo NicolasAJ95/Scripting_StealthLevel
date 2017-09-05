@@ -9,6 +9,10 @@
 		Tags{ "RenderType" = "Opaque" }
 		LOD 100
 
+		Cull Off 
+		ZWrite Off 
+		ZTest Always
+
 		Pass
 	{
 		CGPROGRAM
@@ -33,6 +37,7 @@
 	sampler2D _RenderTexture;
 	float _BlendValue;
 	float _HealthValue;
+	float _VFXIntensity;
 
 
 	v2f vert(appdata v)
@@ -51,7 +56,7 @@
 	fixed grayTint = (col.r + col.g + col.b) / 3.0f;
 	//fixed4 grayTint = (gray, gray, gray, 1);
 
-	return  lerp(fixed4(grayTint, grayTint, grayTint, 1), col, _HealthValue / 100);
+	return  lerp(fixed4(grayTint, grayTint, grayTint, 1), col, 1-_VFXIntensity);
 
 	}
 		ENDCG
