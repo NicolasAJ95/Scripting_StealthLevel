@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: d635a7642bcb27e408bc959da2d4b069
+timeCreated: 1504673316
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Nicolas07_Head
+    100004: Nicolas07_Hips
+    100006: Nicolas07_LeftArm
+    100008: Nicolas07_LeftFoot
+    100010: Nicolas07_LeftForeArm
+    100012: Nicolas07_LeftHand
+    100014: Nicolas07_LeftLeg
+    100016: Nicolas07_LeftShoulder
+    100018: Nicolas07_LeftToeBase
+    100020: Nicolas07_LeftUpLeg
+    100022: Nicolas07_Neck
+    100024: Nicolas07_RightArm
+    100026: Nicolas07_RightFoot
+    100028: Nicolas07_RightForeArm
+    100030: Nicolas07_RightHand
+    100032: Nicolas07_RightLeg
+    100034: Nicolas07_RightShoulder
+    100036: Nicolas07_RightToeBase
+    100038: Nicolas07_RightUpLeg
+    100040: Nicolas07_Spine
+    100042: Nicolas07_Spine1
+    400000: //RootNode
+    400002: Nicolas07_Head
+    400004: Nicolas07_Hips
+    400006: Nicolas07_LeftArm
+    400008: Nicolas07_LeftFoot
+    400010: Nicolas07_LeftForeArm
+    400012: Nicolas07_LeftHand
+    400014: Nicolas07_LeftLeg
+    400016: Nicolas07_LeftShoulder
+    400018: Nicolas07_LeftToeBase
+    400020: Nicolas07_LeftUpLeg
+    400022: Nicolas07_Neck
+    400024: Nicolas07_RightArm
+    400026: Nicolas07_RightFoot
+    400028: Nicolas07_RightForeArm
+    400030: Nicolas07_RightHand
+    400032: Nicolas07_RightLeg
+    400034: Nicolas07_RightShoulder
+    400036: Nicolas07_RightToeBase
+    400038: Nicolas07_RightUpLeg
+    400040: Nicolas07_Spine
+    400042: Nicolas07_Spine1
+    7400000: HitCrouch
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'HitCrouch' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Nicolas07_Spine1' has translation animation
+      that will be discarded.\n\t'Nicolas07_Head' has translation animation that will
+      be discarded.\n\t'Nicolas07_LeftHand' has translation animation that will be
+      discarded.\n\t'Nicolas07_RightHand' has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HitCrouch
+      takeName: HitCrouch
+      firstFrame: 119
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Nicolas07_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nicolas07_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: HitCrouch(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_Hips
+      parentName: HitCrouch(Clone)
+      position: {x: 0, y: 0.9273639, z: 0}
+      rotation: {x: 0.030337827, y: 0.020677084, z: 0.00047814852, w: 0.99932575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftUpLeg
+      parentName: Nicolas07_Hips
+      position: {x: -0.09511744, y: 0, z: 0}
+      rotation: {x: 0.09069696, y: -0.034825064, z: -0.034456328, w: 0.99467283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftLeg
+      parentName: Nicolas07_LeftUpLeg
+      position: {x: -0, y: -0.42255104, z: 0}
+      rotation: {x: -0.028477067, y: -0.03409533, z: 0.037687305, w: 0.9983017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftFoot
+      parentName: Nicolas07_LeftLeg
+      position: {x: -0, y: -0.4202896, z: 0}
+      rotation: {x: -0.030566486, y: -0.11672045, z: -0.010946874, w: 0.992634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftToeBase
+      parentName: Nicolas07_LeftFoot
+      position: {x: -0, y: -0.061826333, z: 0.14267616}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightUpLeg
+      parentName: Nicolas07_Hips
+      position: {x: 0.09511744, y: 0, z: 0}
+      rotation: {x: 0.056998502, y: 0.009480162, z: 0.059094615, w: 0.99657875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightLeg
+      parentName: Nicolas07_RightUpLeg
+      position: {x: -0, y: -0.42255104, z: 0}
+      rotation: {x: 0.004382741, y: 0.014246633, z: -0.026999332, w: 0.99952435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightFoot
+      parentName: Nicolas07_RightLeg
+      position: {x: -0, y: -0.4202896, z: 0}
+      rotation: {x: -0.03027954, y: 0.12975436, z: -0.03140537, w: 0.99058604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightToeBase
+      parentName: Nicolas07_RightFoot
+      position: {x: -0, y: -0.061826333, z: 0.14267616}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_Spine
+      parentName: Nicolas07_Hips
+      position: {x: -0, y: 0.0779963, z: 0}
+      rotation: {x: -0.09020699, y: -0.014587302, z: -0.015966555, w: 0.9956882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_Spine1
+      parentName: Nicolas07_Spine
+      position: {x: 0.000000014901161, y: 0.20416187, z: 0.000000040978193}
+      rotation: {x: 0.092417926, y: -0.0048721903, z: 0.02684566, w: 0.9953465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftShoulder
+      parentName: Nicolas07_Spine1
+      position: {x: -0.03787832, y: 0.18089692, z: -0.0033772604}
+      rotation: {x: 0.032474265, y: 0.0068247155, z: -0.11662331, w: 0.9926217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftArm
+      parentName: Nicolas07_LeftShoulder
+      position: {x: -0.12469949, y: 0, z: 0}
+      rotation: {x: 0.99298215, y: 0.07313294, z: 0.0379128, w: 0.08485649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftForeArm
+      parentName: Nicolas07_LeftArm
+      position: {x: -0.27663606, y: 0, z: 0}
+      rotation: {x: 0.6843478, y: -0.07050482, z: -0.025532115, w: 0.7252898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_LeftHand
+      parentName: Nicolas07_LeftForeArm
+      position: {x: -0.28664127, y: 0.00000035762787, z: 0.00000017881393}
+      rotation: {x: 0.6852829, y: 0.029268643, z: -0.057536293, w: 0.7254104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_Neck
+      parentName: Nicolas07_Spine1
+      position: {x: -0, y: 0.20202707, z: 0.018366098}
+      rotation: {x: 0.2569747, y: -0.015365641, z: 0.013206342, w: 0.9662058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_Head
+      parentName: Nicolas07_Neck
+      position: {x: 0.000000029802322, y: 0.12854767, z: -0.018363893}
+      rotation: {x: -0.032298055, y: -0.01969719, z: -0.0021504965, w: 0.9992819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightShoulder
+      parentName: Nicolas07_Spine1
+      position: {x: 0.038204983, y: 0.18089692, z: -0.0033772604}
+      rotation: {x: 0.04235298, y: -0.06261022, z: 0.11960714, w: 0.9899396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightArm
+      parentName: Nicolas07_RightShoulder
+      position: {x: 0.12469949, y: 0, z: 0}
+      rotation: {x: 0.009354762, y: 0.015233198, z: -0.11919938, w: 0.9927094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightForeArm
+      parentName: Nicolas07_RightArm
+      position: {x: 0.27663606, y: 0, z: 0}
+      rotation: {x: -0.06620825, y: 0.005113523, z: -0.010338052, w: 0.9977392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nicolas07_RightHand
+      parentName: Nicolas07_RightForeArm
+      position: {x: 0.27941334, y: 0.0000013113022, z: 0.00000017881393}
+      rotation: {x: -0.06602559, y: -0.0067270333, z: 0.07480902, w: 0.99498695}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ecc12190343ecea46993fa494f61225a,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
