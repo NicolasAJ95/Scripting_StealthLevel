@@ -28,7 +28,7 @@ namespace UnityStandardAssets.Cameras
         {
             // find the camera in the object hierarchy
             m_Cam = GetComponentInChildren<Camera>().transform;
-            m_Pivot = m_Cam.parent;
+            m_Pivot = m_Cam;
             m_OriginalDist = m_Cam.localPosition.magnitude;
             m_CurrentDist = m_OriginalDist;
 

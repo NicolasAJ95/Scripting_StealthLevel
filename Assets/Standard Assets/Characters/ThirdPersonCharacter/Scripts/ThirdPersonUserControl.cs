@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
+
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
     [RequireComponent(typeof (ThirdPersonCharacter))]
@@ -20,6 +21,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // get the transform of the main camera
             if (Camera.main != null)
             {
+                
                 m_Cam = Camera.main.transform;
             }
             else

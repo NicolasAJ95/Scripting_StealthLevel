@@ -132,13 +132,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Scripting_StealthLevel.csproj">
-      <Project>{318BC628-30FD-F8DA-8CB8-8968113E1DAD}</Project>
-      <Name>Scripting_StealthLevel</Name>
-    </ProjectReference>
     <ProjectReference Include="Scripting_StealthLevel.Plugins.csproj">
       <Project>{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}</Project>
       <Name>Scripting_StealthLevel.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Scripting_StealthLevel.csproj">
+      <Project>{318BC628-30FD-F8DA-8CB8-8968113E1DAD}</Project>
+      <Name>Scripting_StealthLevel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -175,10 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cinemachine\license.txt" />
-    <None Include="Assets\Normal-Diffuse-XRay-Replaceable.shader" />
+    <None Include="Assets\Shaders\CharacterXRay.shader" />
     <None Include="Assets\Shaders\InteractableXRay.shader" />
     <None Include="Assets\Shaders\PostEffectShader.shader" />
-    <None Include="Assets\Shaders\Walls.shader" />
+    <None Include="Assets\Shaders\StaticObjectsXRay.shader" />
     <None Include="Assets\Shaders\XRayVision.shader" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
