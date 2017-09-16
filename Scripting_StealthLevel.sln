@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel.Plugins", "Scripting_StealthLevel.Plugins.csproj", "{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel", "Scripting_StealthLevel.csproj", "{318BC628-30FD-F8DA-8CB8-8968113E1DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel.Plugins", "Scripting_StealthLevel.Plugins.csproj", "{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel.Editor", "Scripting_StealthLevel.Editor.csproj", "{3E8D4926-8356-6D3A-255E-77EADFD505ED}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Release|Any CPU.Build.0 = Release|Any CPU
 		{318BC628-30FD-F8DA-8CB8-8968113E1DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{318BC628-30FD-F8DA-8CB8-8968113E1DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318BC628-30FD-F8DA-8CB8-8968113E1DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318BC628-30FD-F8DA-8CB8-8968113E1DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C86F3-E88C-9F6D-E7CE-D40FC1F63460}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E8D4926-8356-6D3A-255E-77EADFD505ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E8D4926-8356-6D3A-255E-77EADFD505ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E8D4926-8356-6D3A-255E-77EADFD505ED}.Release|Any CPU.ActiveCfg = Release|Any CPU

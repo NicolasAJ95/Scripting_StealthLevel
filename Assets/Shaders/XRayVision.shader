@@ -16,7 +16,7 @@ Shader "XRay/XRayVision"
 			Comp GEqual
 			Pass Keep
 			ZFail Replace
-		}
+		} 
 			ZWrite On
 			ZTest Always
 			Blend One One

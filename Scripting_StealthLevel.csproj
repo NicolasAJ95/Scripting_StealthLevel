@@ -130,8 +130,10 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\LightData.cs" />
     <Compile Include="Assets\PostEffectReference.cs" />
+    <Compile Include="Assets\Switch.cs" />
     <Compile Include="Assets\XRayReplacement.cs" />
   </ItemGroup>
   <ItemGroup>
