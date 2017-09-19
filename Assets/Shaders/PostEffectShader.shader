@@ -35,9 +35,9 @@
 
 	sampler2D _MainTex;
 	sampler2D _RenderTexture;
-	float _BlendValue;
-	float _HealthValue;
 	float _VFXIntensity;
+	float4 _WhiteReplacement;
+	float4 _BlackReplacement;
 
 
 	v2f vert(appdata v)
@@ -56,7 +56,10 @@
 	fixed grayTint = (col.r + col.g + col.b) / 3.0f;
 	//fixed4 grayTint = (gray, gray, gray, 1);
 
-	return  lerp(fixed4(grayTint, grayTint, grayTint, 1), col, 1-_VFXIntensity);
+	//fixed4 grayTintLerp = lerp(fixed4(grayTint, grayTint, grayTint, 1) * lerp(_WhiteReplacement, _BlackReplacement, grayTint) * 0.5, col, 1-_VFXIntensity);
+	fixed4 grayTintLerp = lerp(col * (lerp(_WhiteReplacement, _BlackReplacement, 1-grayTint)) * 0.5, col, 1-_VFXIntensity);
+
+	return  grayTintLerp ;
 
 	}
 		ENDCG
