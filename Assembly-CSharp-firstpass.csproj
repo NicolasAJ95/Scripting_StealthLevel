@@ -182,6 +182,9 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Unity 2017/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/timem/OneDrive/Documents/GitHub/Scripting_StealthLevel/Assets/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

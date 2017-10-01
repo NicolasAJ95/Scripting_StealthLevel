@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: aa78b9730e6ef4742ae31cde486f16f5
+timeCreated: 1506705491
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: BackRoomAndHallWalls
+    100002: CenterRoomWalls
+    100004: EntranceWalls
+    100006: Floor
+    100008: //RootNode
+    100010: GlassRoomWalls
+    100012: Halls
+    100014: LeftRoomWalls
+    100016: RightRoomWalls
+    100018: Halls.002
+    100020: Rooftops
+    400000: BackRoomAndHallWalls
+    400002: CenterRoomWalls
+    400004: EntranceWalls
+    400006: Floor
+    400008: //RootNode
+    400010: GlassRoomWalls
+    400012: Halls
+    400014: LeftRoomWalls
+    400016: RightRoomWalls
+    400018: Halls.002
+    400020: Rooftops
+    2300000: BackRoomAndHallWalls
+    2300002: CenterRoomWalls
+    2300004: EntranceWalls
+    2300006: Floor
+    2300008: GlassRoomWalls
+    2300010: Halls
+    2300012: LeftRoomWalls
+    2300014: RightRoomWalls
+    2300016: Halls.002
+    2300018: Rooftops
+    3300000: BackRoomAndHallWalls
+    3300002: CenterRoomWalls
+    3300004: EntranceWalls
+    3300006: Floor
+    3300008: GlassRoomWalls
+    3300010: Halls
+    3300012: LeftRoomWalls
+    3300014: RightRoomWalls
+    3300016: Halls.002
+    3300018: Rooftops
+    4300000: BackRoomAndHallWalls
+    4300002: Halls
+    4300004: CenterRoomWalls
+    4300006: RightRoomWalls
+    4300008: GlassRoomWalls
+    4300010: EntranceWalls
+    4300012: LeftRoomWalls
+    4300014: Floor
+    4300016: Halls.002
+    4300018: Rooftops
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -51,70 +51,70 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBasicMultiChannelPerlinEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBlenderSettingsEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBrainEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineClearShotEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineColliderEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineComposerEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineFreeLookEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineGroupComposerEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineOrbitalTransposerEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachinePathEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineStateDrivenCameraEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTargetGroupEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTrackedDollyEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTransposerEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineVirtualCameraEditor.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Menus\CinemachineMenu.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\CinemachineBlendDefinitionPropertyDrawer.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\GetSetDrawer.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\LensSettingsPropertyDrawer.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\MinDrawer.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\EmbeddedAssetHelpers.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\SaveDuringPlay.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\ScriptableObjectUtility.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\SerializedPropertyHelper.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Windows\AboutWindow.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Windows\CinemachineColliderPrefs.cs" />
-     <Compile Include="Assets\Cinemachine\Base\Editor\Windows\CinemachineSettings.cs" />
-     <Compile Include="Assets\Cinemachine\Blackboard\Editor\ReactorEditor.cs" />
-     <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
-     <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
-     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
-     <None Include="Assets\Cinemachine\license.txt" />
-     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
-     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineBasicMultiChannelPerlinEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineBlenderSettingsEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineBrainEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineClearShotEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineColliderEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineComposerEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineFreeLookEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineGroupComposerEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineOrbitalTransposerEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachinePathEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineStateDrivenCameraEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineTargetGroupEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineTrackedDollyEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineTransposerEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Editors\CinemachineVirtualCameraEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Menus\CinemachineMenu.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\PropertyDrawers\CinemachineBlendDefinitionPropertyDrawer.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\PropertyDrawers\GetSetDrawer.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\PropertyDrawers\LensSettingsPropertyDrawer.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\PropertyDrawers\MinDrawer.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Utility\EmbeddedAssetHelpers.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Utility\SaveDuringPlay.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Utility\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Utility\SerializedPropertyHelper.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Windows\AboutWindow.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Windows\CinemachineColliderPrefs.cs" />
+     <Compile Include="Assets\_Cinemachine\Base\Editor\Windows\CinemachineSettings.cs" />
+     <Compile Include="Assets\_Cinemachine\Blackboard\Editor\ReactorEditor.cs" />
+     <Compile Include="Assets\_Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
+     <Compile Include="Assets\_Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
+     <None Include="Assets\_Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\_Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\_Cinemachine\license.txt" />
+     <None Include="Assets\_Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\_Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\_Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\Shaders\CharacterXRay.shader" />
-     <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-     <None Include="Assets\NicolasAguirre_BlurEffect.shader" />
+     <None Include="Assets\_Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\_Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Shaders\NicolasAguirre_BlurEffect.shader" />
      <None Include="Assets\Shaders\StaticObjectsXRay.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
-     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
-     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\_Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\_Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\_Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Shaders\XRayVision.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\_Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\_Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\_Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\_Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\_Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\_Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\Shaders\PostEffectShader.shader" />
-     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
-     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\_Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\_Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\_Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Shaders\InteractableXRay.shader" />
-     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
-     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\_Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\_Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\_Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\_Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\_Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\_Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Unity 2017/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -181,6 +181,9 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Unity 2017/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/timem/OneDrive/Documents/GitHub/Scripting_StealthLevel/Assets/_Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Unity 2017/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
@@ -189,8 +192,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E7EDE722-D255-47F1-6CEB-3FFBBF167245}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{A3B08B66-C626-ABB3-EC80-98B36BCB5F2D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel", "Assembly-CSharp.csproj", "{A3B08B66-C626-ABB3-EC80-98B36BCB5F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel", "Assembly-CSharp-firstpass.csproj", "{E7EDE722-D255-47F1-6CEB-3FFBBF167245}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting_StealthLevel", "Assembly-CSharp-Editor.csproj", "{E844E061-8D82-6C47-DF1A-0FE14B97029F}"
 EndProject
 Global
@@ -17,10 +15,6 @@ Global
 		{A3B08B66-C626-ABB3-EC80-98B36BCB5F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B08B66-C626-ABB3-EC80-98B36BCB5F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B08B66-C626-ABB3-EC80-98B36BCB5F2D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7EDE722-D255-47F1-6CEB-3FFBBF167245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7EDE722-D255-47F1-6CEB-3FFBBF167245}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7EDE722-D255-47F1-6CEB-3FFBBF167245}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7EDE722-D255-47F1-6CEB-3FFBBF167245}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E844E061-8D82-6C47-DF1A-0FE14B97029F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E844E061-8D82-6C47-DF1A-0FE14B97029F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E844E061-8D82-6C47-DF1A-0FE14B97029F}.Release|Any CPU.ActiveCfg = Release|Any CPU
