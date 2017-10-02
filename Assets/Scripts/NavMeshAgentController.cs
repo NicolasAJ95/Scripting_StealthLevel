@@ -33,12 +33,12 @@ public class NavMeshAgentController : MonoBehaviour
 	{
 		// Set the agents new destination
 		agent.destination = destination;
-		agent.Resume ();
+		agent.isStopped = false;
 	}
 
 	public void Stop ()
 	{
-		agent.Stop ();
+		agent.isStopped = true;
 	}
 
 	private void SyncAnimation ()

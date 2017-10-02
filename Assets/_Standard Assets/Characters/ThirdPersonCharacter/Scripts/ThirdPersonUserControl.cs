@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -14,7 +15,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
         private float vfxIntensity;
-
+        public Image mapCanvas;
 
         private void Start()
         {
@@ -45,6 +46,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
             else
                 vfxIntensity = 0;
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                mapCanvas.enabled = true;
+            }
+            else
+                mapCanvas.enabled = false;
 
             if (!m_Jump)
             {

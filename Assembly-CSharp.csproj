@@ -174,9 +174,17 @@
      <Compile Include="Assets\allegorithmic\Scripts\MeshLinkEditor.cs" />
      <Compile Include="Assets\allegorithmic\Scripts\ShadersInfos.cs" />
      <Compile Include="Assets\Scripts\BlurPostEffect.cs" />
+     <Compile Include="Assets\Scripts\ExplosiveBotAI\EBotAIController.cs" />
+     <Compile Include="Assets\Scripts\ExplosiveBotAI\EBotChaseState.cs" />
+     <Compile Include="Assets\Scripts\ExplosiveBotAI\EBotListenState.cs" />
+     <Compile Include="Assets\Scripts\ExplosiveBotAI\EBotStateBase.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\LightData.cs" />
      <Compile Include="Assets\Scripts\NavMeshAgentController.cs" />
+     <Compile Include="Assets\Scripts\PatrolTowerAI\PTowerAIController.cs" />
+     <Compile Include="Assets\Scripts\PatrolTowerAI\PTowerAlertState.cs" />
+     <Compile Include="Assets\Scripts\PatrolTowerAI\PTowerPatrolState.cs" />
+     <Compile Include="Assets\Scripts\PatrolTowerAI\PTowerStateBase.cs" />
      <Compile Include="Assets\Scripts\PostEffectReference.cs" />
      <Compile Include="Assets\Scripts\SpacePirateAI\AlertState.cs" />
      <Compile Include="Assets\Scripts\SpacePirateAI\ChaseState.cs" />

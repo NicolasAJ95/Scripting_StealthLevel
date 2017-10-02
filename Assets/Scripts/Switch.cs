@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Switch : MonoBehaviour {
 
     [SerializeField]
@@ -9,6 +9,7 @@ public class Switch : MonoBehaviour {
     private bool playerIsClose;
     public bool switchOn;
     private GameManager gM;
+    public Text pressButtonText;
     // Use this for initialization
     void Start () {
         playerIsClose = false;
@@ -18,7 +19,7 @@ public class Switch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.E) && playerIsClose == true && switchOn == false)
+        if (Input.GetKeyDown(KeyCode.X) && playerIsClose == true && switchOn == false)
         {
             switchOn = true;
             gM.AddSwitch (index);           
@@ -30,6 +31,7 @@ public class Switch : MonoBehaviour {
         if(col.CompareTag ("Player"))
         {
             Debug.Log("Hi");
+            pressButtonText .text = "Press X to activate.";
             playerIsClose = true;
         }
     }
@@ -38,6 +40,7 @@ public class Switch : MonoBehaviour {
         if (col.CompareTag("Player"))
         {
             Debug.Log("Bye");
+            pressButtonText .text = "";
             playerIsClose = false;
         }
     }
